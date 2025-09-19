@@ -4,8 +4,8 @@ const HomeContent = () => {
   return (
     <div className="p-2">
       <h1 className="text-4xl font-bold p-2 text-center">Welcome to Simple Product Catalog!</h1>
-      <div className="flex justify-center items-center flex-wrap gap-4 p-8">
-        <div className="btn btn-block md:btn-wide btn-lg lg:w-40 h-25">
+      <div className="flex justify-center flex-wrap gap-4 p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-items-center">
+        <div className="btn btn-block md:btn-wide btn-lg h-25">
           <div className="flex flex-col items-center">
             <span>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -17,7 +17,7 @@ const HomeContent = () => {
             </span>
           </div>
         </div>
-        <div className="btn btn-block md:btn-wide btn-lg lg:w-40 h-25">
+        <div className="btn btn-block md:btn-wide btn-lg h-25">
           <div className="flex flex-col items-center">
             <span>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -29,7 +29,7 @@ const HomeContent = () => {
             </span>
           </div>
         </div>
-        <div className="btn btn-block md:btn-wide btn-lg lg:w-40 h-25">
+        <div className="btn btn-block md:btn-wide btn-lg h-25">
           <div className="flex flex-col items-center">
             <span>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -41,7 +41,7 @@ const HomeContent = () => {
             </span>
           </div>
         </div>
-        <div className="btn btn-block md:btn-wide btn-lg lg:w-40 h-25">
+        <div className="btn btn-block md:btn-wide btn-lg h-25">
           <div className="flex flex-col items-center">
             <span>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">

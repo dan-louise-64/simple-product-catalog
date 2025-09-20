@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import Sidebar from "./Sidebar";
 
 const Navbar = () => {
@@ -24,7 +25,7 @@ const Navbar = () => {
     <div className="navbar bg-base-100 shadow-sm">
       <Sidebar />
       <div class="flex-1">
-        <a class="btn btn-ghost text-xl">Simple Product Catalog</a>
+        <Link to="/"><a class="btn btn-ghost text-xl">Simple Product Catalog</a></Link>
       </div>
       <div class="flex gap-2">
         <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />

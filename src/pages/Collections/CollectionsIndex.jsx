@@ -1,8 +1,11 @@
 import React from 'react'
+import CollectionsContent from './CollectionsContent'
 
 const CollectionsIndex = () => {
   return (
-    <div>CollectionsIndex</div>
+    <div>
+      <CollectionsContent />
+    </div>
   )
 }
 

@@ -723,7 +723,6 @@ const CollectionsContent = () => {
       item.collectionName.toLowerCase().includes(query)
     );
 
-    console.log(newFilteredData)
     setFilteredData(newFilteredData);
   };
 

@@ -21,6 +21,7 @@ const ProductDetails = () => {
         productCost={productDetailsData.productCost} 
         productDescription={productDetailsData.productDescription} 
         productCollection={productDetailsData.productCollection}
+        productRating={productDetailsData.productRating}
       />
 
       <div className="p-8 flex justify-center place-items-center">

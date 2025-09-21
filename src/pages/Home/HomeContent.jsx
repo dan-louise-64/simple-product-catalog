@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const HomeContent = () => {
   return (
     <div className="p-2">
       <h1 className="text-4xl font-bold p-2 text-center">Welcome to Simple Product Catalog!</h1>
       <div className="flex justify-center flex-wrap gap-4 p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-items-center">
-        <div className="btn btn-block md:btn-wide btn-lg h-25">
+        <Link to="/collections" className="btn btn-block md:btn-wide btn-lg h-25" >
           <div className="flex flex-col items-center">
             <span>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -16,8 +17,8 @@ const HomeContent = () => {
               Collections
             </span>
           </div>
-        </div>
-        <div className="btn btn-block md:btn-wide btn-lg h-25">
+        </Link>
+        <Link to="/products" className="btn btn-block md:btn-wide btn-lg h-25">
           <div className="flex flex-col items-center">
             <span>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -28,8 +29,8 @@ const HomeContent = () => {
               Products
             </span>
           </div>
-        </div>
-        <div className="btn btn-block md:btn-wide btn-lg h-25">
+        </Link>
+        <Link to="/services" className="btn btn-block md:btn-wide btn-lg h-25">
           <div className="flex flex-col items-center">
             <span>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -40,19 +41,19 @@ const HomeContent = () => {
               Services
             </span>
           </div>
-        </div>
-        <div className="btn btn-block md:btn-wide btn-lg h-25">
-          <div className="flex flex-col items-center">
-            <span>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M6.429 9.75 2.25 12l4.179 2.25m0-4.5 5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0 4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0-5.571 3-5.571-3" />
-              </svg>
-            </span>
-            <span>
-              More
-            </span>
-          </div>
-        </div>
+        </Link>
+        <Link to="/more" className="btn btn-block md:btn-wide btn-lg h-25">
+            <div className="flex flex-col items-center">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6.429 9.75 2.25 12l4.179 2.25m0-4.5 5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0 4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0-5.571 3-5.571-3" />
+                </svg>
+              </span>
+              <span>
+                More
+              </span>
+            </div>
+        </Link>
       </div>
     </div>
   )

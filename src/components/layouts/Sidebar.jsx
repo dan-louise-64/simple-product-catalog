@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import {NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
   return (
@@ -14,14 +14,14 @@ const Sidebar = () => {
         <div className="drawer-side">
           <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
           <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
-            <Link to="/">
+            <NavLink to="/">
               <li>
                 <div class="flex-1">
                   <a class="text-xl font-bold">Simple Product Catalog</a>
                 </div>
               </li>
-            </Link>
-            <Link to="/">
+            </NavLink>
+            <NavLink to="/">
               <li>
                 <a>
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -30,8 +30,8 @@ const Sidebar = () => {
                   Home
                 </a>
               </li>
-            </Link>
-            <Link to="/#promoted">
+            </NavLink>
+            <NavLink to="/#promoted">
               <li>
                 <a>
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -40,8 +40,8 @@ const Sidebar = () => {
                   Promoted
                 </a>
               </li>
-            </Link>
-            <Link to="/products">            
+            </NavLink>
+            <NavLink to="/products">            
               <li>
                 <a>
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -50,8 +50,8 @@ const Sidebar = () => {
                   Products
                 </a>
               </li>
-            </Link>
-            <Link to="/collections"> 
+            </NavLink>
+            <NavLink to="/collections"> 
               <li>
                 <a>
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -60,8 +60,8 @@ const Sidebar = () => {
                   Collections
                 </a>
               </li>
-            </Link>
-            <Link to="/services"> 
+            </NavLink>
+            <NavLink to="/services"> 
               <li>
                 <a>
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -70,14 +70,14 @@ const Sidebar = () => {
                   Services
                 </a>
               </li>
-            </Link>
-            <Link to="/more"> 
+            </NavLink>
+            <NavLink to="/more"> 
               <li>
                 <a>
                   More
                 </a>
               </li>
-            </Link>
+            </NavLink>
           </ul>
         </div>
       </div>

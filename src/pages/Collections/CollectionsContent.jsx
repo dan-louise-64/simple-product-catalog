@@ -2,16 +2,9 @@ import React, { useState } from 'react'
 import CollectionsCard from './CollectionsCard'
 
 const CollectionsContent = () => {
-
-  const [currentPage, setPage] = useState(1);
-  //const [searchQuery, setQuery] = useState('');
-
   var data = []
-  var perPage = 8
-  var pages = []
-  var numberOfPages = 1
-
-  data = [
+  
+  data.push.apply(data, [
     {
       "collectionID": 1,
       "collectionImage": "Apple",
@@ -712,16 +705,36 @@ const CollectionsContent = () => {
       "collectionIsPromoted": true,
       "collectionDescription": "Lorem ipsum docet"
     }
-   ]
+  ])
 
-  function paginate(data) {
+  const [currentPage, setPage] = useState(1);
+  
+  var perPage = 8
+  var pages = []
+  var numberOfPages = 1
+  const [searchTerm, setSearchTerm] = useState('');
+  const [filteredData, setFilteredData] = useState(data);
+
+  const handleSearch = (event) => {
+    const query = event.target.value.toLowerCase();
+    setSearchTerm(query);
+
+    const newFilteredData = data.filter(item =>
+      item.collectionName.toLowerCase().includes(query)
+    );
+
+    console.log(newFilteredData)
+    setFilteredData(newFilteredData);
+  };
+
+  function paginate(filteredData) {
     const from = (currentPage - 1) * perPage
     const to = currentPage * perPage
-    return data.slice(from, to)
+    return filteredData.slice(from, to)
   }
 
   function setPages() {
-    numberOfPages = Math.ceil(data.length / perPage)
+    numberOfPages = Math.ceil(filteredData.length / perPage)
     for (let index = 1; index <= numberOfPages; index++) {
       pages.push(index)
     }
@@ -751,15 +764,24 @@ const CollectionsContent = () => {
             <path d="m21 21-4.3-4.3"></path>
           </g>
         </svg>
-        <input type="search" required placeholder="Search collections..." />
+        <input 
+          type="search" 
+          placeholder="Search collections..." 
+          value={searchTerm}
+          onChange={handleSearch}
+        />
       </label>
     </div>
 
 
     <div className="flex justify-center flex-wrap gap-16 p-2 place-items-center grid grid-cols-2">
-      {paginate(data).map((data, index) => (
-        <CollectionsCard collectionID={data.collectionID} collectionImage={data.collectionImage} collectionName={data.collectionName} collectionIsPromoted={data.collectionIsPromoted} collectionDescription={data.collectionDescription} />
-      ))}
+      {(filteredData.length) > 0 ? (
+        paginate(filteredData).map((data, index) => (
+          <CollectionsCard collectionID={data.collectionID} collectionImage={data.collectionImage} collectionName={data.collectionName} collectionIsPromoted={data.collectionIsPromoted} collectionDescription={data.collectionDescription} />
+        ))
+      ) : (
+        <span>No results found.</span>
+      )}
     </div>
     
     <div className="join p-8 flex justify-center place-items-center">

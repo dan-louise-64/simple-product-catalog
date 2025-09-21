@@ -73,8 +73,8 @@ const CollectionsContent = () => {
 
     <div className="flex justify-center flex-wrap gap-16 p-2 place-items-center grid grid-cols-2">
       {(filteredData.length) > 0 ? (
-        paginate(filteredData).map((data, index) => (
-          <CollectionsCard collectionID={data.collectionID} collectionImage={data.collectionImage} collectionName={data.collectionName} collectionIsPromoted={data.collectionIsPromoted} collectionDescription={data.collectionDescription} />
+        paginate(filteredData).map((collectionData, index) => (
+          <CollectionsCard collectionID={collectionData.id} collectionImage={collectionData.collectionImage} collectionName={collectionData.collectionName} collectionIsPromoted={collectionData.collectionIsPromoted} collectionDescription={collectionData.collectionDescription} />
         ))
       ) : (
         <span>No results found.</span>

@@ -7,6 +7,7 @@ import NotFoundIndex from './pages/NotFound/NotFoundIndex'
 import RootLayout from './layout/RootLayout'
 import ProductsContent, { productsLoader } from './pages/Products/ProductsContent'
 import CollectionsContent, { collectionsLoader } from './pages/Collections/CollectionsContent'
+import ProductDetails from './pages/Products/ProductDetails'
 
 const App = () => {
 
@@ -19,6 +20,7 @@ const App = () => {
         </Route>
         <Route path='products' element = {<ProductsIndex />}>
           <Route index element = {<ProductsContent />} loader={productsLoader}></Route>
+          <Route path=':id' element={<ProductDetails/>}/>
         </Route>
         <Route path="*" element={<NotFoundIndex />} />
       </Route>

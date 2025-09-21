@@ -1,10 +1,10 @@
 import React from 'react'
-import CollectionsContent from './CollectionsContent'
+import { Outlet } from 'react-router-dom'
 
 const CollectionsIndex = () => {
   return (
     <div>
-      <CollectionsContent />
+      <Outlet />
     </div>
   )
 }

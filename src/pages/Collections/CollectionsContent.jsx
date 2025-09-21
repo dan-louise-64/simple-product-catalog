@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
 import CollectionsCard from './CollectionsCard'
+import { useLoaderData } from 'react-router-dom';
 
 const CollectionsContent = () => {
-  var data = []
-  
-  data.push.apply(data, [])
+  const collectionsData = useLoaderData();
 
   const [currentPage, setPage] = useState(1);
   
@@ -12,13 +11,13 @@ const CollectionsContent = () => {
   var pages = []
   var numberOfPages = 1
   const [searchTerm, setSearchTerm] = useState('');
-  const [filteredData, setFilteredData] = useState(data);
+  const [filteredData, setFilteredData] = useState(collectionsData);
 
   const handleSearch = (event) => {
     const query = event.target.value.toLowerCase();
     setSearchTerm(query);
 
-    const newFilteredData = data.filter(item =>
+    const newFilteredData = collectionsData.filter(item =>
       item.collectionName.toLowerCase().includes(query)
     );
 
@@ -95,3 +94,8 @@ const CollectionsContent = () => {
 }
 
 export default CollectionsContent
+
+export const collectionsLoader = async ()=> {
+  const res = await fetch("http://localhost:5000/collections");
+  return res.json()
+}

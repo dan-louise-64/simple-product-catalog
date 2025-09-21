@@ -8,6 +8,7 @@ import RootLayout from './layout/RootLayout'
 import ProductsContent, { productsLoader } from './pages/Products/ProductsContent'
 import CollectionsContent, { collectionsLoader } from './pages/Collections/CollectionsContent'
 import ProductDetails, { productDetailsLoader } from './pages/Products/ProductDetails'
+import CollectionDetails, { collectionDetailsLoader } from './pages/Collections/CollectionDetails'
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
         <Route index element = {<Home />}/>
         <Route path='collections' element = {<CollectionsIndex />}>
           <Route index element = {<CollectionsContent />} loader={collectionsLoader}></Route>
+          <Route path=':id' element={<CollectionDetails />} loader={collectionDetailsLoader}></Route>
         </Route>
         <Route path='products' element = {<ProductsIndex />}>
           <Route index element = {<ProductsContent />} loader={productsLoader}></Route>

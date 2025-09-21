@@ -5,6 +5,7 @@ import Navbar from './components/layouts/Navbar'
 import Home from './pages/Home/HomeIndex'
 import CollectionsIndex from './pages/Collections/CollectionsIndex'
 import Products from './pages/Products/ProductsIndex'
+import NotFound from './pages/NotFound/NotFoundIndex'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' element = {<Home />}/>
         <Route path='/collections' element = {<CollectionsIndex />}/>
         <Route path='/products' element = {<Products />}/>
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   )

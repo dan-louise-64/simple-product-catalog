@@ -1,12 +1,12 @@
-import React from "react"
-import ProductsContent from "./ProductsContent"
+import React from 'react'
+import { Outlet } from 'react-router-dom'
 
-const Products = () => {
+const ProductsIndex = () => {
   return (
     <div>
-      <ProductsContent />
+      <Outlet />
     </div>
   )
 }
 
-export default Products
+export default ProductsIndex

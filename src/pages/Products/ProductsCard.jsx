@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const ProductsCard = ({productID, productImage, productName, productIsPromoted, productCost, productDescription, productCollection, productRating}) => {
+const ProductsCard = ({productID, productImage, productName, productIsPromoted, productCost, productDescription, productCollectionID, productRating}) => {
   const productLink = "/products/" + productID;
   return (
     <Link to={productLink}>
@@ -24,7 +24,7 @@ const ProductsCard = ({productID, productImage, productName, productIsPromoted, 
           <span className="text-right">{productCost}</span>
           <p>{productDescription}</p>
           <div className="card-actions justify-end">
-            <div className="badge badge-outline">{productCollection}</div>
+            <div className="badge badge-outline">{productCollectionID}</div>
           </div>
         </div>
       </div>

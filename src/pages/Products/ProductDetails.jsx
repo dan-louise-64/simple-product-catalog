@@ -3,7 +3,9 @@ import { useLoaderData, useNavigate } from 'react-router-dom'
 import ProductDetailsCard from './ProductDetailsCard';
 
 const ProductDetails = () => {
-  const productDetailsData = useLoaderData();
+  const productDetailsDataInitial = useLoaderData();
+  const productDetailsData = productDetailsDataInitial[0];
+  
   const navigate = useNavigate()
 
   const handleGoBack = () => {
@@ -20,7 +22,7 @@ const ProductDetails = () => {
         productIsPromoted={productDetailsData.productIsPromoted} 
         productCost={productDetailsData.productCost} 
         productDescription={productDetailsData.productDescription} 
-        productCollection={productDetailsData.productCollection}
+        productCollectionID={productDetailsData.productCollectionID}
         productRating={productDetailsData.productRating}
       />
 
@@ -35,7 +37,7 @@ export default ProductDetails
 
 export const productDetailsLoader = async ({params})=>{
   const {id} = params;
-  const res = await fetch("http://localhost:5000/products/" + id);
+  const res = await fetch("http://localhost:3000/products/" + id);
 
   return res.json()
 }

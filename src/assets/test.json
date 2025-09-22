@@ -2,1705 +2,1075 @@
   "collections":[
     {
       "id": "1",
-      "collectionImage": "Apple",
-      "collectionName": "Apple",
+      "collectionImage": "Collection 1",
+      "collectionName": "Collection 1",
       "collectionIsPromoted": "TRUE",
       "collectionDescription": "Lorem ipsum docet"
     },
     {
       "id": "2",
-      "collectionImage": "Banana",
-      "collectionName": "Banana",
+      "collectionImage": "Collection 2",
+      "collectionName": "Collection 2",
       "collectionIsPromoted": "TRUE",
       "collectionDescription": "Lorem ipsum docet"
     },
     {
       "id": "3",
-      "collectionImage": "Carrot",
-      "collectionName": "Carrot",
+      "collectionImage": "Collection 3",
+      "collectionName": "Collection 3",
       "collectionIsPromoted": "TRUE",
       "collectionDescription": "Lorem ipsum docet"
     },
     {
       "id": "4",
-      "collectionImage": "Dragon Fruit",
-      "collectionName": "Dragon Fruit",
+      "collectionImage": "Collection 4",
+      "collectionName": "Collection 4",
       "collectionIsPromoted": "TRUE",
       "collectionDescription": "Lorem ipsum docet"
     },
     {
       "id": "5",
-      "collectionImage": "Elderberry",
-      "collectionName": "Elderberry",
+      "collectionImage": "Collection 5",
+      "collectionName": "Collection 5",
       "collectionIsPromoted": "TRUE",
       "collectionDescription": "Lorem ipsum docet"
     },
     {
       "id": "6",
-      "collectionImage": "Fig",
-      "collectionName": "Fig",
+      "collectionImage": "Collection 6",
+      "collectionName": "Collection 6",
       "collectionIsPromoted": "TRUE",
       "collectionDescription": "Lorem ipsum docet"
     },
     {
       "id": "7",
-      "collectionImage": "Guava",
-      "collectionName": "Guava",
+      "collectionImage": "Collection 7",
+      "collectionName": "Collection 7",
       "collectionIsPromoted": "TRUE",
       "collectionDescription": "Lorem ipsum docet"
     },
     {
       "id": "8",
-      "collectionImage": "Honeydew",
-      "collectionName": "Honeydew",
+      "collectionImage": "Collection 8",
+      "collectionName": "Collection 8",
       "collectionIsPromoted": "TRUE",
       "collectionDescription": "Lorem ipsum docet"
     },
     {
       "id": "9",
-      "collectionImage": "Indian Plum",
-      "collectionName": "Indian Plum",
+      "collectionImage": "Collection 9",
+      "collectionName": "Collection 9",
       "collectionIsPromoted": "TRUE",
       "collectionDescription": "Lorem ipsum docet"
     },
     {
       "id": "10",
-      "collectionImage": "Jackfruit",
-      "collectionName": "Jackfruit",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "11",
-      "collectionImage": "Kiwi",
-      "collectionName": "Kiwi",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "12",
-      "collectionImage": "Lemon",
-      "collectionName": "Lemon",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "13",
-      "collectionImage": "Mango",
-      "collectionName": "Mango",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "14",
-      "collectionImage": "Nectarine",
-      "collectionName": "Nectarine",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "15",
-      "collectionImage": "Orange",
-      "collectionName": "Orange",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "16",
-      "collectionImage": "Papaya",
-      "collectionName": "Papaya",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "17",
-      "collectionImage": "Quince",
-      "collectionName": "Quince",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "18",
-      "collectionImage": "Rambutan",
-      "collectionName": "Rambutan",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "19",
-      "collectionImage": "Strawberry",
-      "collectionName": "Strawberry",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "20",
-      "collectionImage": "Tomato",
-      "collectionName": "Tomato",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "21",
-      "collectionImage": "Apple",
-      "collectionName": "Apple",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "22",
-      "collectionImage": "Banana",
-      "collectionName": "Banana",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "23",
-      "collectionImage": "Carrot",
-      "collectionName": "Carrot",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "24",
-      "collectionImage": "Dragon Fruit",
-      "collectionName": "Dragon Fruit",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "25",
-      "collectionImage": "Elderberry",
-      "collectionName": "Elderberry",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "26",
-      "collectionImage": "Fig",
-      "collectionName": "Fig",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "27",
-      "collectionImage": "Guava",
-      "collectionName": "Guava",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "28",
-      "collectionImage": "Honeydew",
-      "collectionName": "Honeydew",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "29",
-      "collectionImage": "Indian Plum",
-      "collectionName": "Indian Plum",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "30",
-      "collectionImage": "Jackfruit",
-      "collectionName": "Jackfruit",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "31",
-      "collectionImage": "Kiwi",
-      "collectionName": "Kiwi",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "32",
-      "collectionImage": "Lemon",
-      "collectionName": "Lemon",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "33",
-      "collectionImage": "Mango",
-      "collectionName": "Mango",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "34",
-      "collectionImage": "Nectarine",
-      "collectionName": "Nectarine",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "35",
-      "collectionImage": "Orange",
-      "collectionName": "Orange",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "36",
-      "collectionImage": "Papaya",
-      "collectionName": "Papaya",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "37",
-      "collectionImage": "Quince",
-      "collectionName": "Quince",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "38",
-      "collectionImage": "Rambutan",
-      "collectionName": "Rambutan",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "39",
-      "collectionImage": "Strawberry",
-      "collectionName": "Strawberry",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "40",
-      "collectionImage": "Tomato",
-      "collectionName": "Tomato",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "41",
-      "collectionImage": "Apple",
-      "collectionName": "Apple",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "42",
-      "collectionImage": "Banana",
-      "collectionName": "Banana",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "43",
-      "collectionImage": "Carrot",
-      "collectionName": "Carrot",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "44",
-      "collectionImage": "Dragon Fruit",
-      "collectionName": "Dragon Fruit",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "45",
-      "collectionImage": "Elderberry",
-      "collectionName": "Elderberry",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "46",
-      "collectionImage": "Fig",
-      "collectionName": "Fig",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "47",
-      "collectionImage": "Guava",
-      "collectionName": "Guava",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "48",
-      "collectionImage": "Honeydew",
-      "collectionName": "Honeydew",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "49",
-      "collectionImage": "Indian Plum",
-      "collectionName": "Indian Plum",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "50",
-      "collectionImage": "Jackfruit",
-      "collectionName": "Jackfruit",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "51",
-      "collectionImage": "Kiwi",
-      "collectionName": "Kiwi",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "52",
-      "collectionImage": "Lemon",
-      "collectionName": "Lemon",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "53",
-      "collectionImage": "Mango",
-      "collectionName": "Mango",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "54",
-      "collectionImage": "Nectarine",
-      "collectionName": "Nectarine",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "55",
-      "collectionImage": "Orange",
-      "collectionName": "Orange",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "56",
-      "collectionImage": "Papaya",
-      "collectionName": "Papaya",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "57",
-      "collectionImage": "Quince",
-      "collectionName": "Quince",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "58",
-      "collectionImage": "Rambutan",
-      "collectionName": "Rambutan",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "59",
-      "collectionImage": "Strawberry",
-      "collectionName": "Strawberry",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "60",
-      "collectionImage": "Tomato",
-      "collectionName": "Tomato",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "61",
-      "collectionImage": "Apple",
-      "collectionName": "Apple",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "62",
-      "collectionImage": "Banana",
-      "collectionName": "Banana",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "63",
-      "collectionImage": "Carrot",
-      "collectionName": "Carrot",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "64",
-      "collectionImage": "Dragon Fruit",
-      "collectionName": "Dragon Fruit",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "65",
-      "collectionImage": "Elderberry",
-      "collectionName": "Elderberry",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "66",
-      "collectionImage": "Fig",
-      "collectionName": "Fig",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "67",
-      "collectionImage": "Guava",
-      "collectionName": "Guava",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "68",
-      "collectionImage": "Honeydew",
-      "collectionName": "Honeydew",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "69",
-      "collectionImage": "Indian Plum",
-      "collectionName": "Indian Plum",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "70",
-      "collectionImage": "Jackfruit",
-      "collectionName": "Jackfruit",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "71",
-      "collectionImage": "Kiwi",
-      "collectionName": "Kiwi",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "72",
-      "collectionImage": "Lemon",
-      "collectionName": "Lemon",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "73",
-      "collectionImage": "Mango",
-      "collectionName": "Mango",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "74",
-      "collectionImage": "Nectarine",
-      "collectionName": "Nectarine",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "75",
-      "collectionImage": "Orange",
-      "collectionName": "Orange",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "76",
-      "collectionImage": "Papaya",
-      "collectionName": "Papaya",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "77",
-      "collectionImage": "Quince",
-      "collectionName": "Quince",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "78",
-      "collectionImage": "Rambutan",
-      "collectionName": "Rambutan",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "79",
-      "collectionImage": "Strawberry",
-      "collectionName": "Strawberry",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "80",
-      "collectionImage": "Tomato",
-      "collectionName": "Tomato",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "81",
-      "collectionImage": "Apple",
-      "collectionName": "Apple",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "82",
-      "collectionImage": "Banana",
-      "collectionName": "Banana",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "83",
-      "collectionImage": "Carrot",
-      "collectionName": "Carrot",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "84",
-      "collectionImage": "Dragon Fruit",
-      "collectionName": "Dragon Fruit",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "85",
-      "collectionImage": "Elderberry",
-      "collectionName": "Elderberry",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "86",
-      "collectionImage": "Fig",
-      "collectionName": "Fig",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "87",
-      "collectionImage": "Guava",
-      "collectionName": "Guava",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "88",
-      "collectionImage": "Honeydew",
-      "collectionName": "Honeydew",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "89",
-      "collectionImage": "Indian Plum",
-      "collectionName": "Indian Plum",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "90",
-      "collectionImage": "Jackfruit",
-      "collectionName": "Jackfruit",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "91",
-      "collectionImage": "Kiwi",
-      "collectionName": "Kiwi",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "92",
-      "collectionImage": "Lemon",
-      "collectionName": "Lemon",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "93",
-      "collectionImage": "Mango",
-      "collectionName": "Mango",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "94",
-      "collectionImage": "Nectarine",
-      "collectionName": "Nectarine",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "95",
-      "collectionImage": "Orange",
-      "collectionName": "Orange",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "96",
-      "collectionImage": "Papaya",
-      "collectionName": "Papaya",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "97",
-      "collectionImage": "Quince",
-      "collectionName": "Quince",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "98",
-      "collectionImage": "Rambutan",
-      "collectionName": "Rambutan",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "99",
-      "collectionImage": "Strawberry",
-      "collectionName": "Strawberry",
-      "collectionIsPromoted": "TRUE",
-      "collectionDescription": "Lorem ipsum docet"
-    },
-    {
-      "id": "100",
-      "collectionImage": "Tomato",
-      "collectionName": "Tomato",
+      "collectionImage": "Collection 10",
+      "collectionName": "Collection 10",
       "collectionIsPromoted": "TRUE",
       "collectionDescription": "Lorem ipsum docet"
     }
-  ],
+   ],
   "products": [
     {
-      "id": 1,
-      "productImage": "Apple",
-      "productName": "Apple",
-      "productIsPromoted": true,
-      "productCost": 100,
+      "id": "1",
+      "productImage": "Product 1",
+      "productName": "Product 1",
+      "productIsPromoted": "TRUE",
+      "productCost": "100",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection1",
-      "productRating": 4.7
+      "productCollectionID": "6",
+      "productRating": "4.7"
     },
     {
-      "id": 2,
-      "productImage": "Banana",
-      "productName": "Banana",
-      "productIsPromoted": true,
-      "productCost": 200,
+      "id": "2",
+      "productImage": "Product 2",
+      "productName": "Product 2",
+      "productIsPromoted": "TRUE",
+      "productCost": "200",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection2",
-      "productRating": 4
+      "productCollectionID": "5",
+      "productRating": "4"
     },
     {
-      "id": 3,
-      "productImage": "Carrot",
-      "productName": "Carrot",
-      "productIsPromoted": true,
-      "productCost": 300,
+      "id": "3",
+      "productImage": "Product 3",
+      "productName": "Product 3",
+      "productIsPromoted": "TRUE",
+      "productCost": "300",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection3",
-      "productRating": 4.4
+      "productCollectionID": "3",
+      "productRating": "4.4"
     },
     {
-      "id": 4,
-      "productImage": "Dragon Fruit",
-      "productName": "Dragon Fruit",
-      "productIsPromoted": true,
-      "productCost": 400,
+      "id": "4",
+      "productImage": "Product 4",
+      "productName": "Product 4",
+      "productIsPromoted": "TRUE",
+      "productCost": "400",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection4",
-      "productRating": 4.7
+      "productCollectionID": "8",
+      "productRating": "4.7"
     },
     {
-      "id": 5,
-      "productImage": "Elderberry",
-      "productName": "Elderberry",
-      "productIsPromoted": true,
-      "productCost": 500,
+      "id": "5",
+      "productImage": "Product 5",
+      "productName": "Product 5",
+      "productIsPromoted": "TRUE",
+      "productCost": "500",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection5",
-      "productRating": 4.4
+      "productCollectionID": "6",
+      "productRating": "4.4"
     },
     {
-      "id": 6,
-      "productImage": "Fig",
-      "productName": "Fig",
-      "productIsPromoted": true,
-      "productCost": 600,
+      "id": "6",
+      "productImage": "Product 6",
+      "productName": "Product 6",
+      "productIsPromoted": "TRUE",
+      "productCost": "600",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection6",
-      "productRating": 3.3
+      "productCollectionID": "3",
+      "productRating": "3.3"
     },
     {
-      "id": 7,
-      "productImage": "Guava",
-      "productName": "Guava",
-      "productIsPromoted": true,
-      "productCost": 700,
+      "id": "7",
+      "productImage": "Product 7",
+      "productName": "Product 7",
+      "productIsPromoted": "TRUE",
+      "productCost": "700",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection7",
-      "productRating": 3.4
+      "productCollectionID": "4",
+      "productRating": "3.4"
     },
     {
-      "id": 8,
-      "productImage": "Honeydew",
-      "productName": "Honeydew",
-      "productIsPromoted": true,
-      "productCost": 800,
+      "id": "8",
+      "productImage": "Product 8",
+      "productName": "Product 8",
+      "productIsPromoted": "TRUE",
+      "productCost": "800",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection8",
-      "productRating": 4.6
+      "productCollectionID": "5",
+      "productRating": "4.6"
     },
     {
-      "id": 9,
-      "productImage": "Indian Plum",
-      "productName": "Indian Plum",
-      "productIsPromoted": true,
-      "productCost": 900,
+      "id": "9",
+      "productImage": "Product 9",
+      "productName": "Product 9",
+      "productIsPromoted": "TRUE",
+      "productCost": "900",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection9",
-      "productRating": 3.1
+      "productCollectionID": "8",
+      "productRating": "3.1"
     },
     {
-      "id": 10,
-      "productImage": "Jackfruit",
-      "productName": "Jackfruit",
-      "productIsPromoted": true,
-      "productCost": 1000,
+      "id": "10",
+      "productImage": "Product 10",
+      "productName": "Product 10",
+      "productIsPromoted": "TRUE",
+      "productCost": "1000",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection10",
-      "productRating": 3.1
+      "productCollectionID": "6",
+      "productRating": "3.1"
     },
     {
-      "id": 11,
-      "productImage": "Kiwi",
-      "productName": "Kiwi",
-      "productIsPromoted": true,
-      "productCost": 100,
+      "id": "11",
+      "productImage": "Product 11",
+      "productName": "Product 11",
+      "productIsPromoted": "TRUE",
+      "productCost": "100",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection11",
-      "productRating": 4.8
+      "productCollectionID": "6",
+      "productRating": "4.8"
     },
     {
-      "id": 12,
-      "productImage": "Lemon",
-      "productName": "Lemon",
-      "productIsPromoted": true,
-      "productCost": 200,
+      "id": "12",
+      "productImage": "Product 12",
+      "productName": "Product 12",
+      "productIsPromoted": "TRUE",
+      "productCost": "200",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection12",
-      "productRating": 3.9
+      "productCollectionID": "3",
+      "productRating": "3.9"
     },
     {
-      "id": 13,
-      "productImage": "Mango",
-      "productName": "Mango",
-      "productIsPromoted": true,
-      "productCost": 300,
+      "id": "13",
+      "productImage": "Product 13",
+      "productName": "Product 13",
+      "productIsPromoted": "TRUE",
+      "productCost": "300",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection13",
-      "productRating": 3.4
+      "productCollectionID": "8",
+      "productRating": "3.4"
     },
     {
-      "id": 14,
-      "productImage": "Nectarine",
-      "productName": "Nectarine",
-      "productIsPromoted": true,
-      "productCost": 400,
+      "id": "14",
+      "productImage": "Product 14",
+      "productName": "Product 14",
+      "productIsPromoted": "TRUE",
+      "productCost": "400",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection14",
-      "productRating": 4.7
+      "productCollectionID": "3",
+      "productRating": "4.7"
     },
     {
-      "id": 15,
-      "productImage": "Orange",
-      "productName": "Orange",
-      "productIsPromoted": true,
-      "productCost": 500,
+      "id": "15",
+      "productImage": "Product 15",
+      "productName": "Product 15",
+      "productIsPromoted": "TRUE",
+      "productCost": "500",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection15",
-      "productRating": 3.8
+      "productCollectionID": "9",
+      "productRating": "3.8"
     },
     {
-      "id": 16,
-      "productImage": "Papaya",
-      "productName": "Papaya",
-      "productIsPromoted": true,
-      "productCost": 600,
+      "id": "16",
+      "productImage": "Product 16",
+      "productName": "Product 16",
+      "productIsPromoted": "TRUE",
+      "productCost": "600",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection16",
-      "productRating": 3.3
+      "productCollectionID": "10",
+      "productRating": "3.3"
     },
     {
-      "id": 17,
-      "productImage": "Quince",
-      "productName": "Quince",
-      "productIsPromoted": true,
-      "productCost": 700,
+      "id": "17",
+      "productImage": "Product 17",
+      "productName": "Product 17",
+      "productIsPromoted": "TRUE",
+      "productCost": "700",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection17",
-      "productRating": 4.5
+      "productCollectionID": "3",
+      "productRating": "4.5"
     },
     {
-      "id": 18,
-      "productImage": "Rambutan",
-      "productName": "Rambutan",
-      "productIsPromoted": true,
-      "productCost": 800,
+      "id": "18",
+      "productImage": "Product 18",
+      "productName": "Product 18",
+      "productIsPromoted": "TRUE",
+      "productCost": "800",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection18",
-      "productRating": 3
+      "productCollectionID": "6",
+      "productRating": "3"
     },
     {
-      "id": 19,
-      "productImage": "Strawberry",
-      "productName": "Strawberry",
-      "productIsPromoted": true,
-      "productCost": 900,
+      "id": "19",
+      "productImage": "Product 19",
+      "productName": "Product 19",
+      "productIsPromoted": "TRUE",
+      "productCost": "900",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection19",
-      "productRating": 4.2
+      "productCollectionID": "1",
+      "productRating": "4.2"
     },
     {
-      "id": 20,
-      "productImage": "Tomato",
-      "productName": "Tomato",
-      "productIsPromoted": true,
-      "productCost": 1000,
+      "id": "20",
+      "productImage": "Product 20",
+      "productName": "Product 20",
+      "productIsPromoted": "TRUE",
+      "productCost": "1000",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection20",
-      "productRating": 4.8
+      "productCollectionID": "1",
+      "productRating": "4.8"
     },
     {
-      "id": 21,
-      "productImage": "Apple",
-      "productName": "Apple",
-      "productIsPromoted": true,
-      "productCost": 100,
+      "id": "21",
+      "productImage": "Product 21",
+      "productName": "Product 21",
+      "productIsPromoted": "TRUE",
+      "productCost": "100",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection1",
-      "productRating": 3.2
+      "productCollectionID": "3",
+      "productRating": "3.2"
     },
     {
-      "id": 22,
-      "productImage": "Banana",
-      "productName": "Banana",
-      "productIsPromoted": true,
-      "productCost": 200,
+      "id": "22",
+      "productImage": "Product 22",
+      "productName": "Product 22",
+      "productIsPromoted": "TRUE",
+      "productCost": "200",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection2",
-      "productRating": 3.6
+      "productCollectionID": "9",
+      "productRating": "3.6"
     },
     {
-      "id": 23,
-      "productImage": "Carrot",
-      "productName": "Carrot",
-      "productIsPromoted": true,
-      "productCost": 300,
+      "id": "23",
+      "productImage": "Product 23",
+      "productName": "Product 23",
+      "productIsPromoted": "TRUE",
+      "productCost": "300",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection3",
-      "productRating": 4.8
+      "productCollectionID": "1",
+      "productRating": "4.8"
     },
     {
-      "id": 24,
-      "productImage": "Dragon Fruit",
-      "productName": "Dragon Fruit",
-      "productIsPromoted": true,
-      "productCost": 400,
+      "id": "24",
+      "productImage": "Product 24",
+      "productName": "Product 24",
+      "productIsPromoted": "TRUE",
+      "productCost": "400",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection4",
-      "productRating": 4.8
+      "productCollectionID": "9",
+      "productRating": "4.8"
     },
     {
-      "id": 25,
-      "productImage": "Elderberry",
-      "productName": "Elderberry",
-      "productIsPromoted": true,
-      "productCost": 500,
+      "id": "25",
+      "productImage": "Product 25",
+      "productName": "Product 25",
+      "productIsPromoted": "TRUE",
+      "productCost": "500",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection5",
-      "productRating": 3.2
+      "productCollectionID": "5",
+      "productRating": "3.2"
     },
     {
-      "id": 26,
-      "productImage": "Fig",
-      "productName": "Fig",
-      "productIsPromoted": true,
-      "productCost": 600,
+      "id": "26",
+      "productImage": "Product 26",
+      "productName": "Product 26",
+      "productIsPromoted": "TRUE",
+      "productCost": "600",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection6",
-      "productRating": 3.7
+      "productCollectionID": "3",
+      "productRating": "3.7"
     },
     {
-      "id": 27,
-      "productImage": "Guava",
-      "productName": "Guava",
-      "productIsPromoted": true,
-      "productCost": 700,
+      "id": "27",
+      "productImage": "Product 27",
+      "productName": "Product 27",
+      "productIsPromoted": "TRUE",
+      "productCost": "700",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection7",
-      "productRating": 3.8
+      "productCollectionID": "4",
+      "productRating": "3.8"
     },
     {
-      "id": 28,
-      "productImage": "Honeydew",
-      "productName": "Honeydew",
-      "productIsPromoted": true,
-      "productCost": 800,
+      "id": "28",
+      "productImage": "Product 28",
+      "productName": "Product 28",
+      "productIsPromoted": "TRUE",
+      "productCost": "800",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection8",
-      "productRating": 4.6
+      "productCollectionID": "8",
+      "productRating": "4.6"
     },
     {
-      "id": 29,
-      "productImage": "Indian Plum",
-      "productName": "Indian Plum",
-      "productIsPromoted": true,
-      "productCost": 900,
+      "id": "29",
+      "productImage": "Product 29",
+      "productName": "Product 29",
+      "productIsPromoted": "TRUE",
+      "productCost": "900",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection9",
-      "productRating": 4
+      "productCollectionID": "9",
+      "productRating": "4"
     },
     {
-      "id": 30,
-      "productImage": "Jackfruit",
-      "productName": "Jackfruit",
-      "productIsPromoted": true,
-      "productCost": 1000,
+      "id": "30",
+      "productImage": "Product 30",
+      "productName": "Product 30",
+      "productIsPromoted": "TRUE",
+      "productCost": "1000",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection10",
-      "productRating": 3.3
+      "productCollectionID": "6",
+      "productRating": "3.3"
     },
     {
-      "id": 31,
-      "productImage": "Kiwi",
-      "productName": "Kiwi",
-      "productIsPromoted": true,
-      "productCost": 100,
+      "id": "31",
+      "productImage": "Product 31",
+      "productName": "Product 31",
+      "productIsPromoted": "TRUE",
+      "productCost": "100",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection11",
-      "productRating": 3.5
+      "productCollectionID": "4",
+      "productRating": "3.5"
     },
     {
-      "id": 32,
-      "productImage": "Lemon",
-      "productName": "Lemon",
-      "productIsPromoted": true,
-      "productCost": 200,
+      "id": "32",
+      "productImage": "Product 32",
+      "productName": "Product 32",
+      "productIsPromoted": "TRUE",
+      "productCost": "200",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection12",
-      "productRating": 3.3
+      "productCollectionID": "5",
+      "productRating": "3.3"
     },
     {
-      "id": 33,
-      "productImage": "Mango",
-      "productName": "Mango",
-      "productIsPromoted": true,
-      "productCost": 300,
+      "id": "33",
+      "productImage": "Product 33",
+      "productName": "Product 33",
+      "productIsPromoted": "TRUE",
+      "productCost": "300",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection13",
-      "productRating": 3.3
+      "productCollectionID": "10",
+      "productRating": "3.3"
     },
     {
-      "id": 34,
-      "productImage": "Nectarine",
-      "productName": "Nectarine",
-      "productIsPromoted": true,
-      "productCost": 400,
+      "id": "34",
+      "productImage": "Product 34",
+      "productName": "Product 34",
+      "productIsPromoted": "TRUE",
+      "productCost": "400",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection14",
-      "productRating": 3.2
+      "productCollectionID": "7",
+      "productRating": "3.2"
     },
     {
-      "id": 35,
-      "productImage": "Orange",
-      "productName": "Orange",
-      "productIsPromoted": true,
-      "productCost": 500,
+      "id": "35",
+      "productImage": "Product 35",
+      "productName": "Product 35",
+      "productIsPromoted": "TRUE",
+      "productCost": "500",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection15",
-      "productRating": 3.6
+      "productCollectionID": "7",
+      "productRating": "3.6"
     },
     {
-      "id": 36,
-      "productImage": "Papaya",
-      "productName": "Papaya",
-      "productIsPromoted": true,
-      "productCost": 600,
+      "id": "36",
+      "productImage": "Product 36",
+      "productName": "Product 36",
+      "productIsPromoted": "TRUE",
+      "productCost": "600",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection16",
-      "productRating": 4.2
+      "productCollectionID": "7",
+      "productRating": "4.2"
     },
     {
-      "id": 37,
-      "productImage": "Quince",
-      "productName": "Quince",
-      "productIsPromoted": true,
-      "productCost": 700,
+      "id": "37",
+      "productImage": "Product 37",
+      "productName": "Product 37",
+      "productIsPromoted": "TRUE",
+      "productCost": "700",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection17",
-      "productRating": 3.8
+      "productCollectionID": "10",
+      "productRating": "3.8"
     },
     {
-      "id": 38,
-      "productImage": "Rambutan",
-      "productName": "Rambutan",
-      "productIsPromoted": true,
-      "productCost": 800,
+      "id": "38",
+      "productImage": "Product 38",
+      "productName": "Product 38",
+      "productIsPromoted": "TRUE",
+      "productCost": "800",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection18",
-      "productRating": 4.5
+      "productCollectionID": "6",
+      "productRating": "4.5"
     },
     {
-      "id": 39,
-      "productImage": "Strawberry",
-      "productName": "Strawberry",
-      "productIsPromoted": true,
-      "productCost": 900,
+      "id": "39",
+      "productImage": "Product 39",
+      "productName": "Product 39",
+      "productIsPromoted": "TRUE",
+      "productCost": "900",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection19",
-      "productRating": 4.5
+      "productCollectionID": "3",
+      "productRating": "4.5"
     },
     {
-      "id": 40,
-      "productImage": "Tomato",
-      "productName": "Tomato",
-      "productIsPromoted": true,
-      "productCost": 1000,
+      "id": "40",
+      "productImage": "Product 40",
+      "productName": "Product 40",
+      "productIsPromoted": "TRUE",
+      "productCost": "1000",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection20",
-      "productRating": 3.4
+      "productCollectionID": "5",
+      "productRating": "3.4"
     },
     {
-      "id": 41,
-      "productImage": "Apple",
-      "productName": "Apple",
-      "productIsPromoted": true,
-      "productCost": 100,
+      "id": "41",
+      "productImage": "Product 41",
+      "productName": "Product 41",
+      "productIsPromoted": "TRUE",
+      "productCost": "100",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection1",
-      "productRating": 4.7
+      "productCollectionID": "4",
+      "productRating": "4.7"
     },
     {
-      "id": 42,
-      "productImage": "Banana",
-      "productName": "Banana",
-      "productIsPromoted": true,
-      "productCost": 200,
+      "id": "42",
+      "productImage": "Product 42",
+      "productName": "Product 42",
+      "productIsPromoted": "TRUE",
+      "productCost": "200",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection2",
-      "productRating": 3.9
+      "productCollectionID": "5",
+      "productRating": "3.9"
     },
     {
-      "id": 43,
-      "productImage": "Carrot",
-      "productName": "Carrot",
-      "productIsPromoted": true,
-      "productCost": 300,
+      "id": "43",
+      "productImage": "Product 43",
+      "productName": "Product 43",
+      "productIsPromoted": "TRUE",
+      "productCost": "300",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection3",
-      "productRating": 4.4
+      "productCollectionID": "3",
+      "productRating": "4.4"
     },
     {
-      "id": 44,
-      "productImage": "Dragon Fruit",
-      "productName": "Dragon Fruit",
-      "productIsPromoted": true,
-      "productCost": 400,
+      "id": "44",
+      "productImage": "Product 44",
+      "productName": "Product 44",
+      "productIsPromoted": "TRUE",
+      "productCost": "400",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection4",
-      "productRating": 3
+      "productCollectionID": "3",
+      "productRating": "3"
     },
     {
-      "id": 45,
-      "productImage": "Elderberry",
-      "productName": "Elderberry",
-      "productIsPromoted": true,
-      "productCost": 500,
+      "id": "45",
+      "productImage": "Product 45",
+      "productName": "Product 45",
+      "productIsPromoted": "TRUE",
+      "productCost": "500",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection5",
-      "productRating": 3.6
+      "productCollectionID": "5",
+      "productRating": "3.6"
     },
     {
-      "id": 46,
-      "productImage": "Fig",
-      "productName": "Fig",
-      "productIsPromoted": true,
-      "productCost": 600,
+      "id": "46",
+      "productImage": "Product 46",
+      "productName": "Product 46",
+      "productIsPromoted": "TRUE",
+      "productCost": "600",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection6",
-      "productRating": 4.8
+      "productCollectionID": "8",
+      "productRating": "4.8"
     },
     {
-      "id": 47,
-      "productImage": "Guava",
-      "productName": "Guava",
-      "productIsPromoted": true,
-      "productCost": 700,
+      "id": "47",
+      "productImage": "Product 47",
+      "productName": "Product 47",
+      "productIsPromoted": "TRUE",
+      "productCost": "700",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection7",
-      "productRating": 3.9
+      "productCollectionID": "1",
+      "productRating": "3.9"
     },
     {
-      "id": 48,
-      "productImage": "Honeydew",
-      "productName": "Honeydew",
-      "productIsPromoted": true,
-      "productCost": 800,
+      "id": "48",
+      "productImage": "Product 48",
+      "productName": "Product 48",
+      "productIsPromoted": "TRUE",
+      "productCost": "800",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection8",
-      "productRating": 3.8
+      "productCollectionID": "3",
+      "productRating": "3.8"
     },
     {
-      "id": 49,
-      "productImage": "Indian Plum",
-      "productName": "Indian Plum",
-      "productIsPromoted": true,
-      "productCost": 900,
+      "id": "49",
+      "productImage": "Product 49",
+      "productName": "Product 49",
+      "productIsPromoted": "TRUE",
+      "productCost": "900",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection9",
-      "productRating": 3.1
+      "productCollectionID": "5",
+      "productRating": "3.1"
     },
     {
-      "id": 50,
-      "productImage": "Jackfruit",
-      "productName": "Jackfruit",
-      "productIsPromoted": true,
-      "productCost": 1000,
+      "id": "50",
+      "productImage": "Product 50",
+      "productName": "Product 50",
+      "productIsPromoted": "TRUE",
+      "productCost": "1000",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection10",
-      "productRating": 3.9
+      "productCollectionID": "1",
+      "productRating": "3.9"
     },
     {
-      "id": 51,
-      "productImage": "Kiwi",
-      "productName": "Kiwi",
-      "productIsPromoted": true,
-      "productCost": 100,
+      "id": "51",
+      "productImage": "Product 51",
+      "productName": "Product 51",
+      "productIsPromoted": "TRUE",
+      "productCost": "100",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection11",
-      "productRating": 3.6
+      "productCollectionID": "8",
+      "productRating": "3.6"
     },
     {
-      "id": 52,
-      "productImage": "Lemon",
-      "productName": "Lemon",
-      "productIsPromoted": true,
-      "productCost": 200,
+      "id": "52",
+      "productImage": "Product 52",
+      "productName": "Product 52",
+      "productIsPromoted": "TRUE",
+      "productCost": "200",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection12",
-      "productRating": 4.7
+      "productCollectionID": "4",
+      "productRating": "4.7"
     },
     {
-      "id": 53,
-      "productImage": "Mango",
-      "productName": "Mango",
-      "productIsPromoted": true,
-      "productCost": 300,
+      "id": "53",
+      "productImage": "Product 53",
+      "productName": "Product 53",
+      "productIsPromoted": "TRUE",
+      "productCost": "300",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection13",
-      "productRating": 3
+      "productCollectionID": "7",
+      "productRating": "3"
     },
     {
-      "id": 54,
-      "productImage": "Nectarine",
-      "productName": "Nectarine",
-      "productIsPromoted": true,
-      "productCost": 400,
+      "id": "54",
+      "productImage": "Product 54",
+      "productName": "Product 54",
+      "productIsPromoted": "TRUE",
+      "productCost": "400",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection14",
-      "productRating": 3.3
+      "productCollectionID": "10",
+      "productRating": "3.3"
     },
     {
-      "id": 55,
-      "productImage": "Orange",
-      "productName": "Orange",
-      "productIsPromoted": true,
-      "productCost": 500,
+      "id": "55",
+      "productImage": "Product 55",
+      "productName": "Product 55",
+      "productIsPromoted": "TRUE",
+      "productCost": "500",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection15",
-      "productRating": 3.6
+      "productCollectionID": "6",
+      "productRating": "3.6"
     },
     {
-      "id": 56,
-      "productImage": "Papaya",
-      "productName": "Papaya",
-      "productIsPromoted": true,
-      "productCost": 600,
+      "id": "56",
+      "productImage": "Product 56",
+      "productName": "Product 56",
+      "productIsPromoted": "TRUE",
+      "productCost": "600",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection16",
-      "productRating": 3
+      "productCollectionID": "4",
+      "productRating": "3"
     },
     {
-      "id": 57,
-      "productImage": "Quince",
-      "productName": "Quince",
-      "productIsPromoted": true,
-      "productCost": 700,
+      "id": "57",
+      "productImage": "Product 57",
+      "productName": "Product 57",
+      "productIsPromoted": "TRUE",
+      "productCost": "700",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection17",
-      "productRating": 4.5
+      "productCollectionID": "3",
+      "productRating": "4.5"
     },
     {
-      "id": 58,
-      "productImage": "Rambutan",
-      "productName": "Rambutan",
-      "productIsPromoted": true,
-      "productCost": 800,
+      "id": "58",
+      "productImage": "Product 58",
+      "productName": "Product 58",
+      "productIsPromoted": "TRUE",
+      "productCost": "800",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection18",
-      "productRating": 3.8
+      "productCollectionID": "1",
+      "productRating": "3.8"
     },
     {
-      "id": 59,
-      "productImage": "Strawberry",
-      "productName": "Strawberry",
-      "productIsPromoted": true,
-      "productCost": 900,
+      "id": "59",
+      "productImage": "Product 59",
+      "productName": "Product 59",
+      "productIsPromoted": "TRUE",
+      "productCost": "900",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection19",
-      "productRating": 4.1
+      "productCollectionID": "9",
+      "productRating": "4.1"
     },
     {
-      "id": 60,
-      "productImage": "Tomato",
-      "productName": "Tomato",
-      "productIsPromoted": true,
-      "productCost": 1000,
+      "id": "60",
+      "productImage": "Product 60",
+      "productName": "Product 60",
+      "productIsPromoted": "TRUE",
+      "productCost": "1000",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection20",
-      "productRating": 3.9
+      "productCollectionID": "1",
+      "productRating": "3.9"
     },
     {
-      "id": 61,
-      "productImage": "Apple",
-      "productName": "Apple",
-      "productIsPromoted": true,
-      "productCost": 100,
+      "id": "61",
+      "productImage": "Product 61",
+      "productName": "Product 61",
+      "productIsPromoted": "TRUE",
+      "productCost": "100",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection1",
-      "productRating": 4.7
+      "productCollectionID": "9",
+      "productRating": "4.7"
     },
     {
-      "id": 62,
-      "productImage": "Banana",
-      "productName": "Banana",
-      "productIsPromoted": true,
-      "productCost": 200,
+      "id": "62",
+      "productImage": "Product 62",
+      "productName": "Product 62",
+      "productIsPromoted": "TRUE",
+      "productCost": "200",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection2",
-      "productRating": 4.5
+      "productCollectionID": "3",
+      "productRating": "4.5"
     },
     {
-      "id": 63,
-      "productImage": "Carrot",
-      "productName": "Carrot",
-      "productIsPromoted": true,
-      "productCost": 300,
+      "id": "63",
+      "productImage": "Product 63",
+      "productName": "Product 63",
+      "productIsPromoted": "TRUE",
+      "productCost": "300",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection3",
-      "productRating": 4
+      "productCollectionID": "3",
+      "productRating": "4"
     },
     {
-      "id": 64,
-      "productImage": "Dragon Fruit",
-      "productName": "Dragon Fruit",
-      "productIsPromoted": true,
-      "productCost": 400,
+      "id": "64",
+      "productImage": "Product 64",
+      "productName": "Product 64",
+      "productIsPromoted": "TRUE",
+      "productCost": "400",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection4",
-      "productRating": 3.8
+      "productCollectionID": "3",
+      "productRating": "3.8"
     },
     {
-      "id": 65,
-      "productImage": "Elderberry",
-      "productName": "Elderberry",
-      "productIsPromoted": true,
-      "productCost": 500,
+      "id": "65",
+      "productImage": "Product 65",
+      "productName": "Product 65",
+      "productIsPromoted": "TRUE",
+      "productCost": "500",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection5",
-      "productRating": 4.6
+      "productCollectionID": "6",
+      "productRating": "4.6"
     },
     {
-      "id": 66,
-      "productImage": "Fig",
-      "productName": "Fig",
-      "productIsPromoted": true,
-      "productCost": 600,
+      "id": "66",
+      "productImage": "Product 66",
+      "productName": "Product 66",
+      "productIsPromoted": "TRUE",
+      "productCost": "600",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection6",
-      "productRating": 4.2
+      "productCollectionID": "4",
+      "productRating": "4.2"
     },
     {
-      "id": 67,
-      "productImage": "Guava",
-      "productName": "Guava",
-      "productIsPromoted": true,
-      "productCost": 700,
+      "id": "67",
+      "productImage": "Product 67",
+      "productName": "Product 67",
+      "productIsPromoted": "TRUE",
+      "productCost": "700",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection7",
-      "productRating": 4.7
+      "productCollectionID": "5",
+      "productRating": "4.7"
     },
     {
-      "id": 68,
-      "productImage": "Honeydew",
-      "productName": "Honeydew",
-      "productIsPromoted": true,
-      "productCost": 800,
+      "id": "68",
+      "productImage": "Product 68",
+      "productName": "Product 68",
+      "productIsPromoted": "TRUE",
+      "productCost": "800",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection8",
-      "productRating": 4.9
+      "productCollectionID": "8",
+      "productRating": "4.9"
     },
     {
-      "id": 69,
-      "productImage": "Indian Plum",
-      "productName": "Indian Plum",
-      "productIsPromoted": true,
-      "productCost": 900,
+      "id": "69",
+      "productImage": "Product 69",
+      "productName": "Product 69",
+      "productIsPromoted": "TRUE",
+      "productCost": "900",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection9",
-      "productRating": 3.7
+      "productCollectionID": "10",
+      "productRating": "3.7"
     },
     {
-      "id": 70,
-      "productImage": "Jackfruit",
-      "productName": "Jackfruit",
-      "productIsPromoted": true,
-      "productCost": 1000,
+      "id": "70",
+      "productImage": "Product 70",
+      "productName": "Product 70",
+      "productIsPromoted": "TRUE",
+      "productCost": "1000",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection10",
-      "productRating": 4.4
+      "productCollectionID": "5",
+      "productRating": "4.4"
     },
     {
-      "id": 71,
-      "productImage": "Kiwi",
-      "productName": "Kiwi",
-      "productIsPromoted": true,
-      "productCost": 100,
+      "id": "71",
+      "productImage": "Product 71",
+      "productName": "Product 71",
+      "productIsPromoted": "TRUE",
+      "productCost": "100",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection11",
-      "productRating": 4.7
+      "productCollectionID": "10",
+      "productRating": "4.7"
     },
     {
-      "id": 72,
-      "productImage": "Lemon",
-      "productName": "Lemon",
-      "productIsPromoted": true,
-      "productCost": 200,
+      "id": "72",
+      "productImage": "Product 72",
+      "productName": "Product 72",
+      "productIsPromoted": "TRUE",
+      "productCost": "200",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection12",
-      "productRating": 3.7
+      "productCollectionID": "7",
+      "productRating": "3.7"
     },
     {
-      "id": 73,
-      "productImage": "Mango",
-      "productName": "Mango",
-      "productIsPromoted": true,
-      "productCost": 300,
+      "id": "73",
+      "productImage": "Product 73",
+      "productName": "Product 73",
+      "productIsPromoted": "TRUE",
+      "productCost": "300",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection13",
-      "productRating": 3
+      "productCollectionID": "9",
+      "productRating": "3"
     },
     {
-      "id": 74,
-      "productImage": "Nectarine",
-      "productName": "Nectarine",
-      "productIsPromoted": true,
-      "productCost": 400,
+      "id": "74",
+      "productImage": "Product 74",
+      "productName": "Product 74",
+      "productIsPromoted": "TRUE",
+      "productCost": "400",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection14",
-      "productRating": 3.8
+      "productCollectionID": "9",
+      "productRating": "3.8"
     },
     {
-      "id": 75,
-      "productImage": "Orange",
-      "productName": "Orange",
-      "productIsPromoted": true,
-      "productCost": 500,
+      "id": "75",
+      "productImage": "Product 75",
+      "productName": "Product 75",
+      "productIsPromoted": "TRUE",
+      "productCost": "500",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection15",
-      "productRating": 3
+      "productCollectionID": "1",
+      "productRating": "3"
     },
     {
-      "id": 76,
-      "productImage": "Papaya",
-      "productName": "Papaya",
-      "productIsPromoted": true,
-      "productCost": 600,
+      "id": "76",
+      "productImage": "Product 76",
+      "productName": "Product 76",
+      "productIsPromoted": "TRUE",
+      "productCost": "600",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection16",
-      "productRating": 3.7
+      "productCollectionID": "5",
+      "productRating": "3.7"
     },
     {
-      "id": 77,
-      "productImage": "Quince",
-      "productName": "Quince",
-      "productIsPromoted": true,
-      "productCost": 700,
+      "id": "77",
+      "productImage": "Product 77",
+      "productName": "Product 77",
+      "productIsPromoted": "TRUE",
+      "productCost": "700",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection17",
-      "productRating": 3.6
+      "productCollectionID": "4",
+      "productRating": "3.6"
     },
     {
-      "id": 78,
-      "productImage": "Rambutan",
-      "productName": "Rambutan",
-      "productIsPromoted": true,
-      "productCost": 800,
+      "id": "78",
+      "productImage": "Product 78",
+      "productName": "Product 78",
+      "productIsPromoted": "TRUE",
+      "productCost": "800",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection18",
-      "productRating": 3.6
+      "productCollectionID": "3",
+      "productRating": "3.6"
     },
     {
-      "id": 79,
-      "productImage": "Strawberry",
-      "productName": "Strawberry",
-      "productIsPromoted": true,
-      "productCost": 900,
+      "id": "79",
+      "productImage": "Product 79",
+      "productName": "Product 79",
+      "productIsPromoted": "TRUE",
+      "productCost": "900",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection19",
-      "productRating": 4.9
+      "productCollectionID": "6",
+      "productRating": "4.9"
     },
     {
-      "id": 80,
-      "productImage": "Tomato",
-      "productName": "Tomato",
-      "productIsPromoted": true,
-      "productCost": 1000,
+      "id": "80",
+      "productImage": "Product 80",
+      "productName": "Product 80",
+      "productIsPromoted": "TRUE",
+      "productCost": "1000",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection20",
-      "productRating": 4.4
+      "productCollectionID": "5",
+      "productRating": "4.4"
     },
     {
-      "id": 81,
-      "productImage": "Apple",
-      "productName": "Apple",
-      "productIsPromoted": true,
-      "productCost": 100,
+      "id": "81",
+      "productImage": "Product 81",
+      "productName": "Product 81",
+      "productIsPromoted": "TRUE",
+      "productCost": "100",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection1",
-      "productRating": 3.3
+      "productCollectionID": "2",
+      "productRating": "3.3"
     },
     {
-      "id": 82,
-      "productImage": "Banana",
-      "productName": "Banana",
-      "productIsPromoted": true,
-      "productCost": 200,
+      "id": "82",
+      "productImage": "Product 82",
+      "productName": "Product 82",
+      "productIsPromoted": "TRUE",
+      "productCost": "200",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection2",
-      "productRating": 4.9
+      "productCollectionID": "4",
+      "productRating": "4.9"
     },
     {
-      "id": 83,
-      "productImage": "Carrot",
-      "productName": "Carrot",
-      "productIsPromoted": true,
-      "productCost": 300,
+      "id": "83",
+      "productImage": "Product 83",
+      "productName": "Product 83",
+      "productIsPromoted": "TRUE",
+      "productCost": "300",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection3",
-      "productRating": 3.1
+      "productCollectionID": "9",
+      "productRating": "3.1"
     },
     {
-      "id": 84,
-      "productImage": "Dragon Fruit",
-      "productName": "Dragon Fruit",
-      "productIsPromoted": true,
-      "productCost": 400,
+      "id": "84",
+      "productImage": "Product 84",
+      "productName": "Product 84",
+      "productIsPromoted": "TRUE",
+      "productCost": "400",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection4",
-      "productRating": 3.3
+      "productCollectionID": "10",
+      "productRating": "3.3"
     },
     {
-      "id": 85,
-      "productImage": "Elderberry",
-      "productName": "Elderberry",
-      "productIsPromoted": true,
-      "productCost": 500,
+      "id": "85",
+      "productImage": "Product 85",
+      "productName": "Product 85",
+      "productIsPromoted": "TRUE",
+      "productCost": "500",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection5",
-      "productRating": 3.6
+      "productCollectionID": "7",
+      "productRating": "3.6"
     },
     {
-      "id": 86,
-      "productImage": "Fig",
-      "productName": "Fig",
-      "productIsPromoted": true,
-      "productCost": 600,
+      "id": "86",
+      "productImage": "Product 86",
+      "productName": "Product 86",
+      "productIsPromoted": "TRUE",
+      "productCost": "600",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection6",
-      "productRating": 4.2
+      "productCollectionID": "1",
+      "productRating": "4.2"
     },
     {
-      "id": 87,
-      "productImage": "Guava",
-      "productName": "Guava",
-      "productIsPromoted": true,
-      "productCost": 700,
+      "id": "87",
+      "productImage": "Product 87",
+      "productName": "Product 87",
+      "productIsPromoted": "TRUE",
+      "productCost": "700",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection7",
-      "productRating": 4
+      "productCollectionID": "10",
+      "productRating": "4"
     },
     {
-      "id": 88,
-      "productImage": "Honeydew",
-      "productName": "Honeydew",
-      "productIsPromoted": true,
-      "productCost": 800,
+      "id": "88",
+      "productImage": "Product 88",
+      "productName": "Product 88",
+      "productIsPromoted": "TRUE",
+      "productCost": "800",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection8",
-      "productRating": 4.3
+      "productCollectionID": "10",
+      "productRating": "4.3"
     },
     {
-      "id": 89,
-      "productImage": "Indian Plum",
-      "productName": "Indian Plum",
-      "productIsPromoted": true,
-      "productCost": 900,
+      "id": "89",
+      "productImage": "Product 89",
+      "productName": "Product 89",
+      "productIsPromoted": "TRUE",
+      "productCost": "900",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection9",
-      "productRating": 4.1
+      "productCollectionID": "1",
+      "productRating": "4.1"
     },
     {
-      "id": 90,
-      "productImage": "Jackfruit",
-      "productName": "Jackfruit",
-      "productIsPromoted": true,
-      "productCost": 1000,
+      "id": "90",
+      "productImage": "Product 90",
+      "productName": "Product 90",
+      "productIsPromoted": "TRUE",
+      "productCost": "1000",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection10",
-      "productRating": 3.6
+      "productCollectionID": "6",
+      "productRating": "3.6"
     },
     {
-      "id": 91,
-      "productImage": "Kiwi",
-      "productName": "Kiwi",
-      "productIsPromoted": true,
-      "productCost": 100,
+      "id": "91",
+      "productImage": "Product 91",
+      "productName": "Product 91",
+      "productIsPromoted": "TRUE",
+      "productCost": "100",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection11",
-      "productRating": 3.3
+      "productCollectionID": "4",
+      "productRating": "3.3"
     },
     {
-      "id": 92,
-      "productImage": "Lemon",
-      "productName": "Lemon",
-      "productIsPromoted": true,
-      "productCost": 200,
+      "id": "92",
+      "productImage": "Product 92",
+      "productName": "Product 92",
+      "productIsPromoted": "TRUE",
+      "productCost": "200",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection12",
-      "productRating": 4.1
+      "productCollectionID": "6",
+      "productRating": "4.1"
     },
     {
-      "id": 93,
-      "productImage": "Mango",
-      "productName": "Mango",
-      "productIsPromoted": true,
-      "productCost": 300,
+      "id": "93",
+      "productImage": "Product 93",
+      "productName": "Product 93",
+      "productIsPromoted": "TRUE",
+      "productCost": "300",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection13",
-      "productRating": 3
+      "productCollectionID": "9",
+      "productRating": "3"
     },
     {
-      "id": 94,
-      "productImage": "Nectarine",
-      "productName": "Nectarine",
-      "productIsPromoted": true,
-      "productCost": 400,
+      "id": "94",
+      "productImage": "Product 94",
+      "productName": "Product 94",
+      "productIsPromoted": "TRUE",
+      "productCost": "400",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection14",
-      "productRating": 3.8
+      "productCollectionID": "2",
+      "productRating": "3.8"
     },
     {
-      "id": 95,
-      "productImage": "Orange",
-      "productName": "Orange",
-      "productIsPromoted": true,
-      "productCost": 500,
+      "id": "95",
+      "productImage": "Product 95",
+      "productName": "Product 95",
+      "productIsPromoted": "TRUE",
+      "productCost": "500",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection15",
-      "productRating": 4.9
+      "productCollectionID": "3",
+      "productRating": "4.9"
     },
     {
-      "id": 96,
-      "productImage": "Papaya",
-      "productName": "Papaya",
-      "productIsPromoted": true,
-      "productCost": 600,
+      "id": "96",
+      "productImage": "Product 96",
+      "productName": "Product 96",
+      "productIsPromoted": "TRUE",
+      "productCost": "600",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection16",
-      "productRating": 4.1
+      "productCollectionID": "8",
+      "productRating": "4.1"
     },
     {
-      "id": 97,
-      "productImage": "Quince",
-      "productName": "Quince",
-      "productIsPromoted": true,
-      "productCost": 700,
+      "id": "97",
+      "productImage": "Product 97",
+      "productName": "Product 97",
+      "productIsPromoted": "TRUE",
+      "productCost": "700",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection17",
-      "productRating": 4.1
+      "productCollectionID": "3",
+      "productRating": "4.1"
     },
     {
-      "id": 98,
-      "productImage": "Rambutan",
-      "productName": "Rambutan",
-      "productIsPromoted": true,
-      "productCost": 800,
+      "id": "98",
+      "productImage": "Product 98",
+      "productName": "Product 98",
+      "productIsPromoted": "TRUE",
+      "productCost": "800",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection18",
-      "productRating": 4.7
+      "productCollectionID": "10",
+      "productRating": "4.7"
     },
     {
-      "id": 99,
-      "productImage": "Strawberry",
-      "productName": "Strawberry",
-      "productIsPromoted": true,
-      "productCost": 900,
+      "id": "99",
+      "productImage": "Product 99",
+      "productName": "Product 99",
+      "productIsPromoted": "TRUE",
+      "productCost": "900",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection19",
-      "productRating": 4.3
+      "productCollectionID": "10",
+      "productRating": "4.3"
     },
     {
-      "id": 100,
-      "productImage": "Tomato",
-      "productName": "Tomato",
-      "productIsPromoted": true,
-      "productCost": 1000,
+      "id": "100",
+      "productImage": "Product 100",
+      "productName": "Product 100",
+      "productIsPromoted": "TRUE",
+      "productCost": "1000",
       "productDescription": "Lorem ipsum docet",
-      "productCollection": "TestCollection20",
-      "productRating": 4.4
+      "productCollectionID": "6",
+      "productRating": "4.4"
     }
   ]
 }

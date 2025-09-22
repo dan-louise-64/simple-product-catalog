@@ -11,7 +11,6 @@ import ProductDetails, { productDetailsLoader } from './pages/Products/ProductDe
 import CollectionDetails, { collectionDetailsLoader } from './pages/Collections/CollectionDetails'
 
 const App = () => {
-
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<RootLayout />}>

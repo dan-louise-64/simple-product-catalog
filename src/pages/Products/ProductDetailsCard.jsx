@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProductDetailsCard = ({productImage, productName, productIsPromoted, productCost, productDescription, productCollection, productRating}) => {
+const ProductDetailsCard = ({productImage, productName, productIsPromoted, productCost, productDescription, productCollectionID, productRating}) => {
   return (
     <div class="card lg:card-side bg-base-100 shadow-sm">
       <figure>
@@ -26,7 +26,7 @@ const ProductDetailsCard = ({productImage, productName, productIsPromoted, produ
           <button class="btn btn-primary">Buy Now!</button>
         </div>
         <div className="card-actions justify-end">
-          <span>In collection: {productCollection}</span>
+          <span>In collection: <div className="badge badge-outline">{productCollectionID}</div></span>
         </div>
       </div>
     </div>

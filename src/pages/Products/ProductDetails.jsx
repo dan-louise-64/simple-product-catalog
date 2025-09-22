@@ -23,6 +23,7 @@ const ProductDetails = () => {
         productCost={productDetailsData.productCost} 
         productDescription={productDetailsData.productDescription} 
         productCollectionID={productDetailsData.productCollectionID}
+        productCollectionName={productDetailsData.productCollectionName}
         productRating={productDetailsData.productRating}
       />
 

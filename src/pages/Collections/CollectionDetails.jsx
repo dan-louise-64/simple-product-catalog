@@ -3,7 +3,8 @@ import { useLoaderData, useNavigate } from 'react-router-dom'
 import CollectionDetailsCard from './CollectionDetailsCard'; 
 
 const CollectionDetails = () => {
-  const collectionDetailsData = useLoaderData();
+  const collectionDetailsDataInitial = useLoaderData();
+  const collectionDetailsData = collectionDetailsDataInitial[0];
 
   const navigate = useNavigate()
 
@@ -33,7 +34,7 @@ export default CollectionDetails
 
 export const collectionDetailsLoader = async ({params})=>{
   const {id} = params;
-  const res = await fetch("http://localhost:5000/collections/" + id);
+  const res = await fetch("http://localhost:3000/collections/" + id);
 
   return res.json()
 }

@@ -73,7 +73,7 @@ const ProductsContent = () => {
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-2 place-items-center">
         {(Object.keys(filteredData).length) > 0 ? (
           paginate(filteredData).map((productData, index) => (
-            <ProductsCard productID={productData.id} productImage={productData.productImage} productName={productData.productName} productIsPromoted={productData.productIsPromoted} productCost={productData.productCost} productDescription={productData.productDescription} productCollectionID={productData.productCollectionID} productRating={productData.productRating}/>
+            <ProductsCard productID={productData.id} productImage={productData.productImage} productName={productData.productName} productIsPromoted={productData.productIsPromoted} productCost={productData.productCost} productDescription={productData.productDescription} productCollectionID={productData.productCollectionID} productCollectionName={productData.productCollectionName} productRating={productData.productRating}/>
           ))
         ) : (
           <span>No results found.</span>

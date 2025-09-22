@@ -4,6 +4,7 @@ import CollectionDetailsCard from './CollectionDetailsCard';
 
 const CollectionDetails = () => {
   const collectionDetailsData = useLoaderData();
+
   const navigate = useNavigate()
 
   const handleGoBack = () => {

@@ -96,6 +96,6 @@ const CollectionsContent = () => {
 export default CollectionsContent
 
 export const collectionsLoader = async ()=> {
-  const res = await fetch("http://localhost:5000/collections");
+  const res = await fetch("http://localhost:3000/collections");
   return res.json()
 }

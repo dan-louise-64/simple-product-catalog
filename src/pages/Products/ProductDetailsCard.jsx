@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const ProductDetailsCard = ({productImage, productName, productIsPromoted, productCost, productDescription, productCollectionID, productCollectionName, productRating}) => {
+  const collectionLink = "/collections/" + productCollectionID;
   return (
     <div class="card lg:card-side bg-base-100 shadow-sm">
       <figure>
@@ -26,7 +28,11 @@ const ProductDetailsCard = ({productImage, productName, productIsPromoted, produ
           <button class="btn btn-primary">Buy Now!</button>
         </div>
         <div className="card-actions justify-end">
-          <span>In collection: <div className="badge badge-outline">{productCollectionName}</div></span>
+          <span>In collection: 
+            <Link to={collectionLink}>
+              <div className="badge badge-outline">{productCollectionName}</div>
+            </Link>
+            </span>
         </div>
       </div>
     </div>
